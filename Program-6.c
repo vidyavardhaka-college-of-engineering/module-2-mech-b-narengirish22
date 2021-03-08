@@ -2,11 +2,13 @@
 //OUTPUT- Total number of even numbers and odd numbers in the array are 1 and 2
 
 //INSERT THE MISSING CODE 
+ 
+#include<stdio.h>
 
 int main()
 {
     int arr[10];
-    int i, num, evennum, oddnum;
+    int i,n, num, evennum, oddnum;
 
     // Reads size and elements in array
     printf("Enter the number of elements and the elements");
@@ -26,7 +28,7 @@ int main()
         /* If the current element of array is evennumber then increment evennumber count */
         if(arr[i]%2 == 0) //missing code
         {
-            ++;
+           i++;
         }
         else
         {
@@ -36,5 +38,5 @@ int main()
 printf("Total number of even numbers and odd numbers in the array are %d and %d",evennum,oddnum  );//missing code
 //printf("Total number of odd numbers in the array : %d\n",   );//missing code
 
-return(0);    
+return 0;    
 }
