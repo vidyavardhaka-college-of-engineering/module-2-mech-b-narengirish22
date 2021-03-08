@@ -33,7 +33,7 @@ int main()
     }
 
     printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d",);
+    printf("The smallest element of the array = %d", small);
 
     return 0;
 }
