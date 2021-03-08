@@ -8,11 +8,11 @@
 
 int main()
 {
-   int a[10],i,n,sum;
+   int a[10],i,sum=0,n;
    printf("Enter number of elements in array and the array elements");
-   
-   printf("Enter %d elements\n", n);
    scanf("%d", &n);
+   //printf("Enter %d elements\n", n);
+   
  
    for (i = 0; i < n; i++)
    {
